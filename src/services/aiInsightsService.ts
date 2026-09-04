@@ -93,7 +93,7 @@ export const aiInsightsService = {
       currentConditionColor,
       keyObservation,
       airQualitySummary,
-      temperatureSummary,
+      temperatureSummary: tempSummary,
       rainfallSummary,
       climateRiskSummary,
       recommendedActions,

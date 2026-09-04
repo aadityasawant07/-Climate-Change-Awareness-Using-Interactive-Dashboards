@@ -190,13 +190,24 @@ export interface TopEmitterCountry {
 export interface ClimateHabit {
   id: string;
   title: string;
-  category: 'Electricity Usage' | 'Public Transport' | 'Recycling' | 'Plastic Usage' | 'Water Conservation' | 'Tree Planting' | 'Renewable Energy';
+  category:
+    | 'Electricity Usage'
+    | 'Public Transport'
+    | 'Recycling'
+    | 'Plastic Usage'
+    | 'Water Conservation'
+    | 'Tree Planting'
+    | 'Renewable Energy'
+    | 'Home Energy'
+    | 'Mobility'
+    | 'Diet & Waste'
+    | 'Nature & Community';
   impactKgCo2Year: number;
   points: number;
   icon: string;
   description: string;
   easyTip: string;
-  actionGuidance: string;
+  actionGuidance?: string;
 }
 
 export interface GlobeHotspot {
